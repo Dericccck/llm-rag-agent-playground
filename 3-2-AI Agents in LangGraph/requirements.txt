@@ -1,0 +1,51 @@
+# requirements file updated to version with more state data
+
+#Python 3.11.1
+# Will need to load graphvis to view graph diagrams
+# linux: sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config
+# mac: brew install graphviz
+# see install instructions at https://pygraphviz.github.io/documentation/stable/install.html
+# This is troublesome so pygraphvis is commented out below.
+
+#Models Used:
+# OpenAI:
+#  - gpt-3.5, gpt-4o 
+# tavily search tool
+
+# also see pipe-freeze file - also without pygraphvis
+
+python-dotenv==1.1.1
+# Tavily 搜索引擎的官方 Python 客户端库，常用于 RAG（检索增强生成）
+tavily-python==0.7.12
+# 用于从 Python 中执行 DuckDuckGo 搜索的库
+ddgs==9.9.0
+# 经典的 HTML 和 XML 解析库，用于网页抓取（Web Scraping）
+beautifulsoup4==4.14.2
+openai==1.109.1
+# 过时方法都被移动到该包下了
+langchain-classic==1.0.0
+# LLM 应用开发框架，用于构建复杂的应用链、Agent 和 RAG（检索增强生成）流程。
+langchain==1.0.3
+langchain-tavily==0.2.13
+langchain-openai==1.0.2
+# 包含所有的第三方集成和社区贡献的工具
+langchain-community==0.4.1
+dashscope==1.25.1
+langgraph==1.0.2
+# 为 Python 的 asyncio 提供 SQLite 数据库的异步支持
+aiosqlite==0.21.0
+langgraph-checkpoint-sqlite==3.0.0
+# 一个通用的语法高亮库，常用于在终端或网页中显示彩色代码
+pygments==2.19.2
+# uncomment after installing, see above. Without this, graph display is off, but all else works
+# Graphviz 图形可视化工具的 Python 接口（langgraph 绘图依赖它）
+#pygraphviz==1.13
+grandalf==0.8
+# 快速为机器学习模型构建和分享 Web UI 界面的库
+gradio==5.1.0
+# added post-launch
+httpx==0.28.1
+# 高性能的现代 Python Web 框架，用于构建 API
+fastapi==0.115.2
+# fastapi 底层依赖的轻量级 ASGI 框架
+starlette==0.40.0

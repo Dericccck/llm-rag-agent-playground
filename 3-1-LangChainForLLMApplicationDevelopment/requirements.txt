@@ -1,0 +1,30 @@
+#modified to match the platform which seems to match initial release
+# OpenAI API 官方库，用于直接调用 GPT 模型、Embedding 等服务
+openai==1.109.1
+# 过时方法都被移动到该包下了
+langchain-classic==1.0.0
+# LLM 应用开发框架，用于构建复杂的应用链、Agent 和 RAG（检索增强生成）流程。
+langchain==1.0.3
+# 环境变量管理，用于从 .env 文件中加载 API 密钥等敏感信息。
+python-dotenv==1.1.1
+# Jupyter 后端服务，运行 Jupyter Notebook 或 JupyterLab 的核心组件
+jupyter_server==2.17.0
+# 包含所有的第三方集成和社区贡献的工具
+langchain-community==0.4.1
+langchain-huggingface==1.0.1
+# 数据源/工具，用于在 LangChain Agent 或 RAG 流程中检索维基百科内容。
+wikipedia==1.4.0
+# 数据处理核心库，用于处理和分析结构化数据，常用于数据加载或结果分析。
+pandas==2.2.3
+# Note, if the urllib3 version is 2.x, this causes an error on the mac due to some incompatibility with the OpenSSL library
+# this version works fine and supports the lessons.
+# HTTP 客户端库，许多其他库（如 openai、requests）的底层依赖，用于处理网络请求。
+urllib3==2.5.0
+# 向量数据结构，用于处理和存储向量数据，有时被用作向量存储或数据管理。
+docarray==0.41.0
+# OpenAI Token 计数器，用于计算输入和输出的 Token 数量。
+tiktoken==0.11.0
+# 一个 Python 图形绘制和布局算法库，主要用于图的可视化布局
+grandalf==0.8
+
+# conda list | Select-String -Pattern "dotenv|jupyter_server|pandas|urllib3|wikipedia|docarray|tiktoken"
