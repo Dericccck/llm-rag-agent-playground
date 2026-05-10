@@ -177,16 +177,10 @@ LangChain 课程代码，既保留原版 notebook，也补了 modern 版本用�
 
 - [L1-Model_prompt_parser.ipynb](3-1-LangChainForLLMApplicationDevelopment/L1-Model_prompt_parser.ipynb)：LangChain 入门，学习模型、Prompt Template 与输出解析器。它对应的是 LangChain 最常见的三件套。
 - [L2-Memory-modern.ipynb](3-1-LangChainForLLMApplicationDevelopment/L2-Memory-modern.ipynb)：用 LangChain 1.x 推荐方式重写 memory 用法。适合避免直接照搬旧 API。
-- [L2-Memory.ipynb](3-1-LangChainForLLMApplicationDevelopment/L2-Memory.ipynb)：原版 LangChain memory 示例。更适合作为理解历史写法和迁移背景的参考。
 - [L3-Chains-modern.ipynb](3-1-LangChainForLLMApplicationDevelopment/L3-Chains-modern.ipynb)：用 LCEL 重写 Chains。重点是学习新版表达式式组合方式。
-- [L3-Chains.ipynb](3-1-LangChainForLLMApplicationDevelopment/L3-Chains.ipynb)：原版 Chains API 示例。适合拿来和 modern 版逐格对照。
-- [L4-QnA.ipynb](3-1-LangChainForLLMApplicationDevelopment/L4-QnA.ipynb)：旧版文档问答示例，仓库里也提供了更新的 RAG 写法。它更像历史版本参考。
 - [L4-RAG-modern.ipynb](3-1-LangChainForLLMApplicationDevelopment/L4-RAG-modern.ipynb)：用更新的 LangChain 写法实现商品目录检索问答。适合直接借来做现代表达方式的模板。
-- [L4-RAG.ipynb](3-1-LangChainForLLMApplicationDevelopment/L4-RAG.ipynb)：经典 RAG 文档问答示例。它更适合用来理解旧教程中的核心思路。
 - [L5-Evaluation-modern.ipynb](3-1-LangChainForLLMApplicationDevelopment/L5-Evaluation-modern.ipynb)：用现代评测思路替代旧版 LangChain evaluation 组件。重点是把评测方式更新到当前生态。
-- [L5-Evaluation.ipynb](3-1-LangChainForLLMApplicationDevelopment/L5-Evaluation.ipynb)：原版评测 notebook，并标记了已过时的做法。适合知道“以前怎么做”和“为什么现在不这么做”。
 - [L6-Agents-modern.ipynb](3-1-LangChainForLLMApplicationDevelopment/L6-Agents-modern.ipynb)：用较新的 LangChain Agent 接口演示工具调用。它更贴近当前官方推荐实践。
-- [L6-Agents.ipynb](3-1-LangChainForLLMApplicationDevelopment/L6-Agents.ipynb)：原版 LangChain Agents 示例。适合作为历史写法和现代写法之间的对照。
 - [L6-Agents_new.ipynb](3-1-LangChainForLLMApplicationDevelopment/L6-Agents_new.ipynb)：新版 Agent notebook，作为旧版的替代实现。重点是给你一个更能直接复用的参考。
 
 ### 3-2 AI Agents in LangGraph
